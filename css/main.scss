@@ -5,7 +5,7 @@ $c-neon-green: hsl(150, 100%, 66%);
 
 $c-grayish-blue: hsl(217, 19%, 38%);
 $c-dark-blue: hsl(229, 57%, 11%);
-$c-dark-grayish-blue: hsl(217, 19%, 24%);
+$c-dark-grayish-blue: hsl(218, 23%, 16%);
 
 // Resets ===============================================
 html {
@@ -17,6 +17,7 @@ html {
 }
 
 body {
+    background-color: $c-dark-grayish-blue;
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
@@ -45,7 +46,7 @@ li {
 // Main ===============================================
 
 .page {
-    
+    background-color: $c-dark-grayish-blue;
 }
 
 .advice__ {

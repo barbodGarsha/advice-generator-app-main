@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: #1f2632;
   margin: 0;
   padding: 0;
   font-family: 'Manrope', sans-serif;
@@ -34,5 +35,9 @@ li {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.page {
+  background-color: #1f2632;
 }
 /*# sourceMappingURL=main.css.map */
