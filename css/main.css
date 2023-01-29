@@ -39,5 +39,19 @@ li {
 
 .page {
   background-color: #1f2632;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.footer {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

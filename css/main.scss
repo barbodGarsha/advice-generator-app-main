@@ -47,6 +47,13 @@ li {
 
 .page {
     background-color: $c-dark-grayish-blue;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+    min-height: 90vh;
 }
 
 .advice__ {
@@ -72,5 +79,5 @@ li {
 }
 
 .footer {
-
+    display: none;
 }
