@@ -54,26 +54,78 @@ li {
 
     width: 100%;
     min-height: 90vh;
+
+    padding: 1rem;
 }
 
-.advice__ {
-    .advice__id {
+.advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    min-height: 100%;
+    .advice__container {
+        background-color: rgba($c-grayish-blue, $alpha: .4);
+        
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 9px;
+
+        padding: 2.4rem 1rem;
+    }
+
+    .advice__id {
+        color: $c-neon-green;
+
+        font-family: 'Manrope';
+        font-size: .65rem;
+        letter-spacing: .25rem;
+        text-transform: uppercase;
+
+        margin-bottom: 2rem;
     }
 
     .advice__txt {
+        color: $c-light-cyan;
+        text-align: center;
+        font-family: 'Manrope';
+        font-size: 1.5rem;
+        font-weight: 800;
+
+        margin-bottom: 1.7rem;
+
         .advice__txt__qoute {
-            
         }
     }
 
     .advice__divider {
-
+        width: 100%;
+        margin-bottom: 1.2rem;
     }
 
     .advice__btn {
-        .advice__btn__icon {
+        cursor: pointer;
+        background-color: $c-neon-green;
 
+        position: absolute;        
+        bottom: -2rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 4rem;
+        height: 4rem;
+
+        border-radius: 50%;
+        .advice__btn__icon {
+            
         }
     }
 }
