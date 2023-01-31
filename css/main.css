@@ -67,6 +67,10 @@ li {
 }
 
 .advice .advice__container {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   background-color: rgba(78, 93, 115, 0.4);
   position: relative;
   display: -webkit-box;
@@ -96,15 +100,24 @@ li {
 }
 
 .advice .advice__txt {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
   color: #cee3e9;
   text-align: center;
   font-family: 'Manrope';
   font-size: 1.5rem;
   font-weight: 800;
+  letter-spacing: .05rem;
   margin-bottom: 1.7rem;
 }
 
 .advice .advice__divider {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: 100%;
   margin-bottom: 1.2rem;
 }
@@ -129,6 +142,10 @@ li {
 }
 
 .advice .advice__btn .advice__btn__icon {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   pointer-events: none;
 }
 
@@ -139,5 +156,26 @@ li {
 
 .footer {
   display: none;
+}
+
+@media screen and (min-width: 850px) {
+  .advice {
+    width: 37.2rem;
+  }
+  .advice .advice__container {
+    border-radius: 15px;
+    padding: 3.4rem 3.3rem;
+  }
+  .advice .advice__id {
+    font-size: .85rem;
+    margin-bottom: 2.3rem;
+  }
+  .advice .advice__txt {
+    font-size: 1.75rem;
+    margin-bottom: 2.75rem;
+  }
+  .advice .advice__divider {
+    content: url("../images/pattern-divider-desktop.svg");
+  }
 }
 /*# sourceMappingURL=main.css.map */

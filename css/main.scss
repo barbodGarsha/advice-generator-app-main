@@ -66,6 +66,7 @@ li {
     width: 100%;
     min-height: 100%;
     .advice__container {
+        user-select: none;
         background-color: rgba($c-grayish-blue, $alpha: .4);
         
         position: relative;
@@ -92,11 +93,14 @@ li {
     }
 
     .advice__txt {
+        
+        user-select: text;
         color: $c-light-cyan;
         text-align: center;
         font-family: 'Manrope';
         font-size: 1.5rem;
         font-weight: 800;
+        letter-spacing: .05rem;
 
         margin-bottom: 1.7rem;
 
@@ -105,6 +109,7 @@ li {
     }
 
     .advice__divider {
+        user-select: none;
         width: 100%;
         margin-bottom: 1.2rem;
     }
@@ -125,6 +130,7 @@ li {
 
         border-radius: 50%;
         .advice__btn__icon {
+            user-select: none;
             pointer-events: none;
         }
     }
@@ -135,4 +141,32 @@ li {
 
 .footer {
     display: none;
+}
+
+@media screen and (min-width: 850px) {
+
+    .advice {
+        width: 37.2rem;
+        .advice__container {
+            border-radius: 15px;
+    
+            padding: 3.4rem 3.3rem;
+        }
+    
+        .advice__id {
+            font-size: .85rem;
+    
+            margin-bottom: 2.3rem;
+        }
+    
+        .advice__txt {
+            font-size: 1.75rem;
+            margin-bottom: 2.75rem;
+        }
+    
+        .advice__divider {
+            content: url('../images/pattern-divider-desktop.svg');
+        }
+    }
+    
 }
