@@ -128,6 +128,15 @@ li {
   border-radius: 50%;
 }
 
+.advice .advice__btn .advice__btn__icon {
+  pointer-events: none;
+}
+
+.advice .advice__btn:active {
+  -webkit-box-shadow: 0 0 2.2rem 0.25rem #52ffa8;
+          box-shadow: 0 0 2.2rem 0.25rem #52ffa8;
+}
+
 .footer {
   display: none;
 }
