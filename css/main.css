@@ -154,10 +154,6 @@ li {
           box-shadow: 0 0 2.2rem 0.25rem #52ffa8;
 }
 
-.footer {
-  display: none;
-}
-
 @media screen and (min-width: 850px) {
   .advice {
     width: 37.2rem;
